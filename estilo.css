@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Cor de fundo e estilo geral */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+h1, h2, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Menu superior */
+#menu {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 1.1em;
+    margin: 0 15px;
+}
+
+#menu a:hover {
+    color: #2980b9;
+}
+
+/* Estilo das listas */
+ol, ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Estilo dos parágrafos */
+p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+/* Seções com fundo claro */
+.section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.section ul {
+    list-style-type: square;
+    color: #2c3e50;
+}
+
+/* Estilo dos itens das listas */
+ol li, ul li {
+    font-size: 1.1em;
+}
+
+/* Link de destaque */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-top: 50px;
+}
